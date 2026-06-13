@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.globalization-partners.com/#organization",
+  "name": "G-P (Globalization Partners)",
+  "alternateName": "Globalization Partners",
+  "url": "https://www.globalization-partners.com/",
+  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "description": "G-P (Globalization Partners) is the recognized leader in global employment, providing a comprehensive platform to hire, manage, and pay employees and contractors in 180+ countries without setting up local entities.",
+  "sameAs": [
+    "https://www.linkedin.com/company/g-p/",
+    "https://x.com/GlobalEOR",
+    "https://github.com/globalization-partners"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "url": "https://developer.g-p.com/",
+    "contactType": "developer support"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "G-P API Platform",
+    "url": "https://developer.g-p.com/apis",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "G-P Authentication API",
+        "description": "Securely verifies client identity and issues access tokens via OAuth 2.0 client credentials grant.",
+        "url": "https://developer.g-p.com/apis/authentication-1/docs"
+      },
+      {
+        "@type": "Offer",
+        "name": "G-P EOR API",
+        "description": "Provides capabilities for accessing and managing employee and employment data within the G-P Employer of Record product.",
+        "url": "https://developer.g-p.com/apis/eor/docs"
+      },
+      {
+        "@type": "Offer",
+        "name": "G-P Contractor API",
+        "description": "API set for accessing and managing detailed Contractor information enabling companies to onboard, manage, and pay international contractors.",
+        "url": "https://developer.g-p.com/apis/contractor/docs"
+      }
+    ]
+  }
+}

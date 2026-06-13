@@ -1,0 +1,52 @@
+{
+  "@context": [
+    "https://schema.org",
+    {
+      "WebAPI": "https://schema.org/WebAPI"
+    }
+  ],
+  "@graph": [
+    {
+      "@type": "WebAPI",
+      "@id": "https://developer.g-p.com/apis/authentication-1/docs#webapi",
+      "name": "G-P Authentication API",
+      "description": "Securely verifies client identity and issues access tokens via OAuth 2.0 client credentials grant for authenticating requests to all G-P APIs.",
+      "documentation": "https://developer.g-p.com/apis/authentication-1/docs",
+      "termsOfService": "https://www.globalization-partners.com/",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://www.globalization-partners.com/#organization"
+      },
+      "version": "1.0.0",
+      "url": "https://api.g-p.com/api"
+    },
+    {
+      "@type": "WebAPI",
+      "@id": "https://developer.g-p.com/apis/eor/docs#webapi",
+      "name": "G-P EOR API",
+      "description": "Provides capabilities for accessing and managing employee and employment data within the G-P Employer of Record (EOR) product, including international hires, employment contracts, benefits, and compliance across 180+ countries.",
+      "documentation": "https://developer.g-p.com/apis/eor/docs",
+      "termsOfService": "https://www.globalization-partners.com/",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://www.globalization-partners.com/#organization"
+      },
+      "version": "1.5.0",
+      "url": "https://api.g-p.com/api"
+    },
+    {
+      "@type": "WebAPI",
+      "@id": "https://developer.g-p.com/apis/contractor/docs#webapi",
+      "name": "G-P Contractor API",
+      "description": "API set for accessing and managing detailed Contractor information, enabling companies to onboard, manage, and pay international contractors compliantly through the G-P platform.",
+      "documentation": "https://developer.g-p.com/apis/contractor/docs",
+      "termsOfService": "https://www.globalization-partners.com/",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://www.globalization-partners.com/#organization"
+      },
+      "version": "1.2.0",
+      "url": "https://api.g-p.com/api/contractor"
+    }
+  ]
+}
