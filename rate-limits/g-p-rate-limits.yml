@@ -1,0 +1,54 @@
+name: G-P API Rate Limits
+description: G-P (Globalization Partners) does not publicly disclose specific API
+  rate limit thresholds in their developer documentation. Rate limits are managed
+  at the platform level and details are available to authenticated customers through
+  the developer portal. The API uses OAuth 2.0 bearer tokens with expiring access
+  tokens that must be refreshed when they expire.
+url: https://developer.g-p.com/guides/quick-start
+created: '2026-06-13'
+modified: '2026-06-13'
+authentication:
+  type: OAuth 2.0
+  grantType: client_credentials
+  tokenEndpoint: https://api.g-p.com/api/oauth/token
+  tokenParameters:
+    - name: grant_type
+      value: client_credentials
+    - name: client_id
+      description: Application client ID from G-P Developer Portal
+    - name: client_secret
+      description: Application client secret (displayed once at creation)
+    - name: audience
+      value: https://developer.g-p.com
+  headerFormat: 'Authorization: Bearer {access_token}'
+  tokenExpiry: Tokens expire; request a new one when needed
+rateLimits:
+  - scope: General
+    description: Specific rate limit values are not publicly documented. Contact G-P
+      support or refer to the authenticated developer portal for current limits.
+    limit: not-disclosed
+    window: not-disclosed
+    notes:
+      - Rate limits are enforced at the platform level
+      - Enterprise accounts may have negotiated limits
+      - SOC 2 and GDPR compliance controls apply to all API access
+apis:
+  - name: Authentication API
+    version: 1.0.0
+    baseURL: https://api.g-p.com/api
+    specVersion: OpenAPI 3.0
+  - name: EOR API
+    version: 1.5.0
+    baseURL: https://api.g-p.com/api
+    specVersion: OpenAPI 3.0
+  - name: Contractor API
+    version: 1.2.0
+    baseURL: https://api.g-p.com/api/contractor
+    specVersion: OpenAPI 3.0
+security:
+  - SOC 2 compliance
+  - GDPR compliance
+  - Encryption in transit (TLS)
+  - Encryption at rest
+  - API versioning for regulatory compliance
+  - Client Admin role required to create applications

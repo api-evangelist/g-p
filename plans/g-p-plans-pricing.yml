@@ -1,0 +1,58 @@
+name: G-P Plans and Pricing
+description: G-P (Globalization Partners) offers quote-based pricing for its global
+  employment platform and API access. All plans are customized based on the number
+  of countries, headcount, and service scope. There is no publicly published rate card;
+  companies must contact sales for a custom proposal.
+url: https://www.globalization-partners.com/g-p-api/
+created: '2026-06-13'
+modified: '2026-06-13'
+plans:
+  - name: G-P Meridian EOR
+    description: Full Employer of Record service for hiring international employees
+      without setting up local entities. Includes employment contracts, payroll, benefits
+      administration, and compliance management across 180+ countries.
+    url: https://www.globalization-partners.com/
+    pricingModel: quote-based
+    pricingDetails: Typically $800–$1,000+ per employee per month depending on country,
+      headcount, and contract terms. Custom quotes required from sales.
+    features:
+      - Employer of Record (EOR) in 180+ countries
+      - Employment contracts and onboarding
+      - Payroll processing and compliance
+      - Benefits administration
+      - In-country HR, legal, and compliance experts
+      - AI-powered HR compliance advisor (G-P Gia)
+      - API access for workflow automation
+  - name: G-P Contractor
+    description: Compliant contractor management for engaging international independent
+      contractors, including onboarding, contracts, and payments.
+    url: https://www.globalization-partners.com/
+    pricingModel: quote-based
+    pricingDetails: Custom pricing based on contractor volume and countries. Contact
+      sales for details.
+    features:
+      - Contractor onboarding and management
+      - Compliant contractor agreements
+      - International contractor payments
+      - Contractor API access
+  - name: G-P API Connect (Custom Integration)
+    description: Developer API access for building custom bi-directional integrations
+      with G-P's platform, including EOR and Contractor APIs. Available to existing
+      G-P customers.
+    url: https://developer.g-p.com/
+    pricingModel: included-with-platform
+    pricingDetails: API access is included as part of the G-P platform subscription.
+      Developer portal access requires existing customer credentials.
+    features:
+      - OAuth 2.0 authentication
+      - EOR API (v1.5.0)
+      - Contractor API (v1.2.0)
+      - Authentication API (v1.0.0)
+      - Quick-start guides and sample code
+      - Sandbox environment (coming soon)
+      - Pre-built integrations with Workday, BambooHR, SAP, ADP, and more
+notes:
+  - Pricing is entirely quote-based with no published rate card
+  - Enterprise customers with 50+ hires often see 15–25% volume discounts
+  - Bundled services available for large-scale deployments
+  - Contact sales at +1-888-855-5328 or info@g-p.com

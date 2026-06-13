@@ -1,0 +1,45 @@
+name: G-P FinOps
+description: Financial operations considerations for using G-P (Globalization Partners)
+  APIs and global employment platform. G-P pricing is quote-based with no public rate
+  card. Costs scale with the number of countries, employees/contractors, and services
+  required. API access is bundled with the G-P platform subscription.
+url: https://www.globalization-partners.com/g-p-api/
+created: '2026-06-13'
+modified: '2026-06-13'
+costModel:
+  type: quote-based
+  description: All G-P pricing is customized. There is no self-serve pricing or published
+    rate card. Companies must request a proposal from sales based on their specific
+    requirements.
+  contactSales: https://www.globalization-partners.com/contact-us/
+  phone: +1-888-855-5328
+  email: info@g-p.com
+estimatedCosts:
+  - tier: EOR per employee
+    estimatedRange: $800–$1,000+ per employee per month
+    basis: Varies by country, headcount, and contract scope
+    notes: Some sources cite 10–20% of employee salary as an alternative pricing model
+  - tier: Volume discount
+    estimatedRange: 15–25% savings
+    basis: Typically applies to enterprises with 50+ international hires
+    notes: Bundled services may further reduce per-unit costs
+  - tier: API access
+    estimatedRange: Included with platform subscription
+    basis: No additional charge for API usage reported; bundled with EOR/Contractor plans
+    notes: Developer portal and API keys are available to existing platform customers
+apiCostConsiderations:
+  - API usage is bundled with the G-P platform subscription — no separate API call fees disclosed
+  - OAuth 2.0 token generation does not carry per-request charges
+  - EOR and Contractor management costs are driven by headcount and geography, not API call volume
+  - Sandbox environment (coming soon) will allow testing without production costs
+costOptimization:
+  - Negotiate volume discounts for 50+ employees across multiple countries
+  - Consolidate countries served to reduce per-country compliance overhead
+  - Use API integrations with existing HRIS (Workday, BambooHR, SAP) to reduce manual data entry costs
+  - Leverage pre-built integrations (ADP, Paylocity, UKG) before building custom API solutions
+  - Request bundled pricing for combined EOR and Contractor services
+complianceNotes:
+  - G-P handles in-country payroll tax, social contributions, and statutory benefits
+  - Compliance costs are embedded in the per-employee fee rather than billed separately
+  - SOC 2 and GDPR compliance maintained at no additional charge to customers
+  - API versioning ensures integrations remain compliant with evolving global regulations
