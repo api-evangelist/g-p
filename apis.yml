@@ -5,7 +5,7 @@ description: G-P (Globalization Partners) is the recognized leader in global emp
   in 180+ countries without setting up local entities. Their REST APIs enable companies
   to automate HR workflows, manage employment contracts, benefits, payroll, and compliance
   across international teams through EOR (Employer of Record) and Contractor products.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/g-p/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -24,7 +24,7 @@ apis:
     name: G-P Authentication API
     description: Securely verifies client identity and issues access tokens via OAuth
       2.0 client credentials grant for authenticating requests to all G-P APIs.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developer.g-p.com/apis/authentication-1/docs
     baseURL: https://api.g-p.com/api
     tags:
@@ -41,7 +41,7 @@ apis:
     description: Provides capabilities for accessing and managing employee and employment
       data within the G-P Employer of Record (EOR) product, including international
       hires, employment contracts, benefits, and compliance across 180+ countries.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developer.g-p.com/apis/eor/docs
     baseURL: https://api.g-p.com/api
     tags:
@@ -61,7 +61,7 @@ apis:
     description: API set for accessing and managing detailed Contractor information,
       enabling companies to onboard, manage, and pay international contractors compliantly
       through the G-P platform.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developer.g-p.com/apis/contractor/docs
     baseURL: https://api.g-p.com/api/contractor
     tags:
