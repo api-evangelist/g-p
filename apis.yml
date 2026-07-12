@@ -74,6 +74,8 @@ apis:
       - type: OpenAPI
         url: https://developer.g-p.com/apis/contractor/docs
 common:
+  - type: DomainSecurity
+    url: security/g-p-domain-security.yml
   - type: Website
     url: https://www.globalization-partners.com/
   - type: Documentation
