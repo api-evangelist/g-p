@@ -41,6 +41,9 @@ apis:
     baseURL: https://api.g-p.com/api
     tags:
       - Authentication
+      - Access Tokens
+    tags_raw:
+      - Authentication
       - OAuth
       - Access Tokens
     properties:
