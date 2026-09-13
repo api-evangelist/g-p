@@ -36,6 +36,14 @@ specificationVersion: '0.23'
 tags:
   - Global Employment
   - Employer of Record
+  - Payroll
+  - HR
+  - Compliance
+  - Contractors
+  - International Hiring
+tags_raw:
+  - Global Employment
+  - Employer of Record
   - EOR
   - Payroll
   - HR
@@ -71,6 +79,13 @@ apis:
     humanURL: https://developer.g-p.com/apis/eor/docs
     baseURL: https://api.g-p.com/api
     tags:
+      - Employer of Record
+      - Employees
+      - Employment
+      - Compliance
+      - Benefits
+      - Payroll
+    tags_raw:
       - EOR
       - Employees
       - Employment
