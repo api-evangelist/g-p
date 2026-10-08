@@ -61,3 +61,27 @@ notes:
   - Enterprise customers with 50+ hires often see 15–25% volume discounts
   - Bundled services available for large-scale deployments
   - Contact sales at +1-888-855-5328 or info@g-p.com
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: G-P Meridian EOR
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: G-P Contractor
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: G-P API Connect (Custom Integration)
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
