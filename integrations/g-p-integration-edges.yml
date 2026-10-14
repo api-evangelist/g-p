@@ -1,0 +1,27 @@
+generated: '2026-10-14'
+method: searched
+checked:
+- paychex-developer/integrations/paychex-developer-integration-edges.yml
+source:
+- paychex-developer/integrations/paychex-developer-integration-edges.yml
+edges:
+- partner_name: Paychex (own)
+  partner: paychex-developer
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.paychex.com/apps/452034/international-hiring-solutions
+  mirror_of: paychex-developer/integrations/paychex-developer-integration-edges.yml
+  apps:
+  - International Hiring Solutions
+  - Global Payroll Solutions
+  listing_count: 2
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Business Solutions
+  badges:
+  - AI-Enabled
