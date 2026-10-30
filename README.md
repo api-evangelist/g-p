@@ -1,4 +1,4 @@
-# G-P (g-p)
+# G-P
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,99 +66,105 @@
 
 G-P (Globalization Partners) is the recognized leader in global employment, providing a comprehensive platform to hire, manage, and pay employees and contractors in 180+ countries without setting up local entities. Their REST APIs enable companies to automate HR workflows, manage employment contracts, benefits, payroll, and compliance across international teams through EOR (Employer of Record) and Contractor products.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/g-p/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/g-p/refs/heads/main/apis.yml)
+**Areas:** Global Employment · Employer of Record · Payroll · Human Resources · Compliance · Contractors · International Hiring
 
-## Tags
+## G-P on APIs.io
 
-- Global Employment
-- Employer of Record
-- EOR
-- Payroll
-- HR
-- Compliance
-- Contractors
-- International Hiring
+Everything profiled for G-P is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/g-p/](https://apis.io/providers/g-p/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (3)
 
-- **Created:** 2026-06-13
-- **Modified:** 2026-06-13
+- [G-P Authentication API](https://apis.io/apis/g-p/g-p-authentication-api/) — Securely verifies client identity and issues access tokens via OAuth 2.0 client credentials grant for authenticating requests to all G-P APIs.
+- [G-P EOR API](https://apis.io/apis/g-p/g-p-eor-api/) — Provides capabilities for accessing and managing employee and employment data within the G-P Employer of Record (EOR) product, including international…
+- [G-P Contractor API](https://apis.io/apis/g-p/g-p-contractor-api/) — API set for accessing and managing detailed Contractor information, enabling companies to onboard, manage, and pay international contractors compliantly…
 
-## APIs
+### Published properties
 
-### G-P Authentication API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Securely verifies client identity and issues access tokens via OAuth 2.0 client credentials grant for authenticating requests to all G-P APIs.
+#### Security (1)
 
-- **Human URL:** [https://developer.g-p.com/apis/authentication-1/docs](https://developer.g-p.com/apis/authentication-1/docs)
-- **Base URL:** `https://api.g-p.com/api`
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags
+- [G P Domain Security](https://apis.io/security/g-p/g-p-domain-security/)
 
-- Authentication
-- OAuth
-- Access Tokens
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://developer.g-p.com/apis/authentication-1/docs)
-- [OpenAPI](https://developer.g-p.com/apis/authentication-1/docs) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
+- [G P Plans Pricing](https://apis.io/plans/g-p/g-p-plans-pricing/)
 
-### G-P EOR API
+#### Rate limits (1)
 
-Provides capabilities for accessing and managing employee and employment data within the G-P Employer of Record (EOR) product, including international hires, employment contracts, benefits, and compliance across 180+ countries.
+Published request limits.
 
-- **Human URL:** [https://developer.g-p.com/apis/eor/docs](https://developer.g-p.com/apis/eor/docs)
-- **Base URL:** `https://api.g-p.com/api`
+- [G P Rate Limits](https://apis.io/rate-limits/g-p/g-p-rate-limits/)
 
-#### Tags
+#### FinOps (1)
 
-- EOR
-- Employees
-- Employment
-- Compliance
-- Benefits
-- Payroll
+What the API costs to run, by operation.
 
-#### Properties
+- [G P Finops](https://apis.io/finops/g-p/g-p-finops/)
 
-- [Documentation](https://developer.g-p.com/apis/eor/docs)
-- [OpenAPI](https://developer.g-p.com/apis/eor/docs) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
+## Where to find this API
 
-### G-P Contractor API
-
-API set for accessing and managing detailed Contractor information, enabling companies to onboard, manage, and pay international contractors compliantly through the G-P platform.
-
-- **Human URL:** [https://developer.g-p.com/apis/contractor/docs](https://developer.g-p.com/apis/contractor/docs)
-- **Base URL:** `https://api.g-p.com/api/contractor`
-
-#### Tags
-
-- Contractors
-- Independent Contractors
-- Global Hiring
-
-#### Properties
-
-- [Documentation](https://developer.g-p.com/apis/contractor/docs)
-- [OpenAPI](https://developer.g-p.com/apis/contractor/docs) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.globalization-partners.com/)
 - [Documentation](https://developer.g-p.com/)
-- [Getting Started](https://developer.g-p.com/guides/quick-start)
-- [Git Hub Org](https://github.com/globalization-partners)
-- [LinkedIn](https://www.linkedin.com/company/g-p/)
-- [Blog](https://www.globalization-partners.com/blog/)
+- [Getting started](https://developer.g-p.com/guides/quick-start)
 - [Pricing](https://www.globalization-partners.com/g-p-api/)
-- [X (Twitter)](https://x.com/GlobalEOR)
-- [Integrations](https://www.globalization-partners.com/integrations/)
-- [Plans](plans/g-p-plans-pricing.yml)
-- [Rate Limits](rate-limits/g-p-rate-limits.yml)
-- [Fin Ops](finops/g-p-finops.yml)
+- [Blog](https://www.globalization-partners.com/blog/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 20.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 24.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 18.4 |
+
+**Agent readiness 13.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/g-p/](https://apis.io/providers/g-p/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for G-P: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/g-p/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
